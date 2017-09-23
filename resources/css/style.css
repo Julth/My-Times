@@ -1,0 +1,198 @@
+
+body {
+    color: black;
+    font-family: Georgia;
+    font-size: 17px;
+    justify-content: center;
+    margin: 0;
+ }
+
+/*header section*/
+header {
+	background-color: white;
+	border-bottom: 1px solid black;
+	display: flex;
+	font-family: Verdana;
+  	font-size: 14px;
+  	font-weight: bold;
+  	position: fixed;
+  	text-align: center;
+  	width: 100%;
+  	z-index: 5;
+}
+header div {
+	width: 1050px;
+}
+header nav {
+	padding-right: 40px;
+}
+nav span {
+	display: inline-block;
+    padding: 20px 10px;
+}
+nav {
+	display: flex;
+}
+.logo {
+	color: MediumAquamarine;
+	display: flex;
+}
+
+.logo span {
+	padding: 20px 10px;	
+}
+
+
+/*news bites*/
+.bite {
+	background-color: WhiteSmoke;
+	border-bottom: 1px solid black;
+	color: DimGray;
+    display: block;
+    font-family: Verdana;
+    font-size: 12px;
+    padding: 11px 20px;
+} 
+
+/* Website Container */
+.content {
+	display: flex;
+	margin: 0 auto 132px auto;
+	position: relative;
+    top: 60px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	margin-right: 32px;
+}
+
+.lead-story {
+	 margin-left: 25px;
+}
+
+.falls, 
+.cameraman {
+	display: block;
+}
+
+.stories {
+	display: flex;
+}
+
+.story {
+	color: black;
+	display: block;	
+	font-family: Georgia; 
+	margin: 0 0 0 25px;
+}
+
+.main-story {
+	font-size: 40px;
+}
+
+.narrative {
+    margin-top: 16px;
+}
+
+h2 {
+	font-family: Georgia;
+	font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 25px;
+} 
+
+ h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+a {
+	color: black;
+}
+
+div {
+	display: block;
+}
+
+p {
+	font-family: Georgia;
+}
+
+/*column sizes*/
+.column .large {
+  width: 630px;
+}
+.column .medium {
+  width: 300px;
+}
+.column .small {
+  width: 240px;
+}
+
+/* images section*/
+.image-content {
+	background-image: url("../images/img-story-main.png") 
+}
+.cameraman {
+	background-image: url("../images/img-cameraman.png")
+}
+.cats {
+	background-size:cover;
+	background-image: url("../images/img-cat.png")
+
+}
+.falls {
+	background-image: url("../images/img-fallseason-girl.png")
+}
+
+/*image content*/
+div.image-content {
+	align-content: center;
+	color: white;
+	display: flex;
+    flex-direction: column;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    height: 300px;    
+    justify-content: center;
+    margin-top: 25px;
+    text-align: center;
+ }  
+
+/*footer section*/
+.footer {
+    align-content: center;	
+	background-color: MediumAquamarine;
+	display: flex;
+	flex-direction: column;
+	font-family: Verdana;
+  	font-size: 12px;
+	height: 300px;
+	justify-content: center;	
+	margin-top: 50px;
+	text-align: center;
+	width: 100%;
+}
+.details {	
+	display: block;
+}
+.footer .title {
+	border-right: 2px solid white;
+	color: white;
+	display: inline-block;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+ 	margin: 21px;
+    padding-right: 25px;  
+}
+.footer nav {
+	display: inline-block;
+	padding-right: 25px;  
+}
